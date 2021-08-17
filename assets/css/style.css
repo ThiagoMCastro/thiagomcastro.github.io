@@ -1,0 +1,86 @@
+/* Carregar fontes */
+@font-face {
+  font-family:'Muli';
+  font-style:normal;
+  font-weight:700!important;
+  src: url(https://fonts.gstatic.com/s/muli/v13/7Au_p_0qiz-adZnkOCX2yg.ttf);
+}
+
+/* Importante */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: overlay;
+  font-family: 'Muli';
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030b16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #030b16, #030b16);
+  border-radius: 50px
+}
+
+.bg-dark {
+  background-color: #030b16!important;
+  background: #030b16!important;
+}
+
+.social_icon {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .5s;
+  opacity: 0.5;
+  font-size: 1.3em;
+}
+.social_icon:hover {
+  opacity: 1;
+}
+.c_icon .fa-circle:before {
+  border-radius: 50%;
+  background: rgb(255 255 255 /0%);
+  color: rgb(255 255 255 /10%);;
+  padding: 10px;
+}
+.img_album {
+  transition: all .5s;
+  cursor: pointer;
+}
+.img_album:hover {
+  opacity: 0.5;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff12;
+    background-clip: padding-box;
+    border: 1px solid #383d44;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #151c26;
+    border-color: #383d44;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(3 11 22);
+}
+
+a:hover {
+  text-decoration: none!important;
+}
